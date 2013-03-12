@@ -1,0 +1,89 @@
+<html>
+<head><title>SignUp</title>
+<style type="text/css">
+body
+{
+background-color:#8B7355;
+}
+div
+{
+margin:0 auto;
+position:relative;top:66px;
+padding:10px;
+border:1px solid #BFBFBF;
+background:#FFF8DC;
+width:500px;
+height:447px;
+align:center;
+}
+.size
+{
+width:250px;
+height:30px;
+}
+.size1
+{
+width:170px;
+height:30px;
+background:green;
+color:white;
+font-weight:bold;
+}
+input
+{
+border-radius: 3px 3px 3px 3px;
+border: 1px solid #BFBFBF;
+min-height: 25px;
+}
+label
+{
+font-weight:bold;
+margin-bottom:0px;
+}
+#namealert
+{
+color:red;
+}
+#show
+{
+color:red;
+
+}
+#mailalert
+{
+color:red;
+}
+#passalert
+{
+color:red;
+}
+#cpassalert
+{
+color:red;
+}
+</style>
+</head>
+<body>
+<div id="content">
+	
+		<h3>Create an Account</h3>
+		<form>
+			<label>Full Name</label><br><input type="text" name="fullname" onkeypress="return check(event)" id="fullname" class="size" /> <span id="namealert"></span></br></br>
+			<label>Email or Username</label><br><input type="text" name="emailid" id="emailid" class="size"/> <span id="mailalert"></span></br></br>
+			<label>Password</label><br><input type="password" name="passwd" id="passwd" class="size"/><span id="passalert"></span><br><br> 
+			<label>ConfirmationPassword</label><br><input type="password" name="cpasswd" id="cpasswd" class="size"/> <span id="cpassalert"></span></br></br>
+			<span id="show"></span></br></br>	
+		
+			<input type="button" value="Create New Account" id="formsubmit" class="size1"/><br></br>
+			Already have an account?<a href="Login.html">Log In</a>
+			
+			
+		</form>
+	
+</div>
+<script src="lib/jquery.js"></script>
+<script src="lib/underscore.js"></script>
+<script src="lib/Backbone.js"></script>
+<script src="lib/b.js"></script>	
+</body>
+</html>

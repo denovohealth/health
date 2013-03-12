@@ -1,0 +1,23 @@
+{
+    "name": "denovonow",
+    "description": "Denovo Application",
+    "version": "0.0.1",
+    "private": true,
+    "domains":[
+        "denovonow.com",
+        "www.denovonow.com"
+    ],
+    "dependencies": {
+        "express": "3.x",
+        "mongodb": "1.1.8",
+        "mongoose": "*",
+        "jade": "*",
+        "connect-mongodb": "*",
+        "socket.io": "0.9.10",
+        "passport" : "*",
+        "passport-local" : "*",
+        "passport-browserid" : "*",
+        "bcrypt" : "*",
+	"nodemailer" :"*"
+    }
+}

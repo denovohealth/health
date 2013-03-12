@@ -1,0 +1,77 @@
+<html>
+<head><title>Login</title>
+<style type="text/css">
+body
+{
+background:#8B7355;
+}
+div
+{
+margin:0 auto;
+position:relative;top:100px;
+padding:10px;
+border:1px solid #BFBFBF;
+background: #FFF8DC;
+width:500px;
+height:250px;
+align:center;
+}
+.size
+{
+width:250px;
+height:30px;
+}
+.size1
+{
+width:80px;
+height:30px;
+background:green;
+color:white;
+font-weight:bold;
+}
+a:link{text-decoration:none;}
+h3
+{
+margin-bottom:7px;
+}
+label
+{
+font-weight:bold;
+margin-bottom:0px;
+}
+input
+{
+border-radius: 3px 3px 3px 3px;
+border: 1px solid #BFBFBF;
+min-height: 25px;
+}
+#logerror
+{
+color:red;
+
+}
+
+</style>
+</head>
+<body>
+<div id="lmain">
+
+	<h3>Login</h3>
+	<form >
+		<label>Email or Username</label><br>
+		<input type="text" id="un" name="Name" class="size"/><br><br> 
+		<label>Password</label><br>   				
+		<input type="password" id="pw"name="passwd" class="size"/><br><br> 
+		<input type="button" value="Login" name="login" id="lin" class="size1"/>
+		<a href="signup.html"><input type="button" value="SignUp" name="signup" id="sup" class="size1"/></a>
+		<span id="logerror"></span>
+	</form>
+		
+	
+</div>
+<script src="lib/jquery.js"></script>
+<script src="lib/underscore.js"></script>
+<script src="lib/Backbone.js"></script>
+<script src="lib/b.js"></script>
+</body>
+</html>
